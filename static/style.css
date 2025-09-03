@@ -1,0 +1,258 @@
+/* Base styles */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    color: #666;
+    font-size: 1.1rem;
+}
+
+/* Main content */
+main {
+    margin-bottom: 2rem;
+}
+
+/* Footer styles */
+footer {
+    border-top: 1px solid #eee;
+    padding-top: 1rem;
+    text-align: center;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* Section page styles */
+.page-list {
+    margin-top: 2rem;
+}
+
+.page-item {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+}
+
+.page-item:last-child {
+    border-bottom: none;
+}
+
+.page-item h3 {
+    margin-bottom: 0.5rem;
+}
+
+.page-item h3 a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+.page-item h3 a:hover {
+    text-decoration: underline;
+}
+
+.page-item time {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.page-item p {
+    margin-top: 0.5rem;
+    color: #555;
+}
+.page-item-image img {
+    margin-right: 2em;
+    max-width: 160px;
+    box-shadow: 0 0 0 3px #fff,0 0 0 4px #ccc,0 4px 6px #333;
+}
+
+/* Individual page styles */
+.page-header {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #eee;
+    text-align: center;
+}
+
+.page-date {
+    color: #666;
+    font-size: 0.9rem;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+div.teaser-image {
+    margin-top: 1rem;
+    text-aling: center;
+}
+
+div.teaser-image img {
+    max-width: 100%;
+}
+
+.page-body div.resources {
+    width: max-content;
+    float: right;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    padding-left: 1rem;
+    border-left: 1px solid #ccc;
+}
+.page-body div.resources h2 {
+    margin:0;
+}
+.page-body div.resources ul {
+    margin: 0;
+    padding: 0;
+}
+
+.page-body ul.extra-links li {
+    list-style: none;
+    margin:0;
+    padding: 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.page-body ul.extra-links li:last-child {
+    border-bottom: none;
+}
+
+.page-body ul.extra-links li a {
+    /* text-decoration: none; */
+    /* background-color: #ddd; */
+    /* color: black; */
+
+    display: block;
+    margin: 0;
+    padding: 0.5rem;
+}
+.page-body ul.extra-links li a:hover {
+    background-color: #eee;
+}
+
+.author-item {
+    margin: 0 2ex;
+    white-space: nowrap;
+}
+
+a.big-button {
+    border: 1px solid #333;
+    border-radius: 0.4em;
+    padding: 1ex;
+    background-color: #eee;
+    color: black;
+    text-decoration: none;
+}
+a.big-button:hover {
+    border-color: black;
+    background-color: #fff;
+}
+
+.page-description {
+    font-size: 1.1rem;
+    color: #555;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.page-meta {
+    background: #f8f9fa;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.page-meta p {
+    margin: 0.5rem 0;
+}
+
+.status-active {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.status-completed {
+    color: #6c757d;
+}
+
+.page-body {
+    line-height: 1.7;
+}
+
+.page-body h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.page-body h3 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+    color: #555;
+}
+
+.page-body code {
+    background: #f1f3f4;
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+.page-body pre {
+    background: #f8f9fa;
+    padding: 1rem;
+    border-radius: 5px;
+    overflow-x: auto;
+    border-left: 3px solid #0066cc;
+}
+
+.page-body blockquote {
+    border-left: 3px solid #ddd;
+    padding-left: 1rem;
+    margin-left: 0;
+    color: #666;
+    font-style: italic;
+}
+
+.page-body ul, .page-body ol {
+    margin: 1rem 0;
+    padding-left: 2rem;
+}
+
+.page-body li {
+    margin: 0.5rem 0;
+}

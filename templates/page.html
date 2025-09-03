@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+{% block content %}
+<article class="page-content">
+    <header class="page-header">
+        <h1>{{ page.title }}</h1>
+        {% if page.extra.authors %}
+        <div class="authors">
+        {% for author in page.extra.authors%}
+        <span class="author-item">
+            <a href="{{author.link}}">{{author.name}}</a>
+        </span>
+        {% endfor %}
+        </div>
+        {% endif %}
+        {% if page.extra.teaser_image %}
+        <div class="teaser-image">
+            <img src="{{ page.extra.teaser_image }}">
+        </div>
+        {% endif %}
+        {% if page.extra.journal %}
+        <p>In {{ page.extra.journal }}
+            {%- if page.extra.volume %}, Vol. {{ page.extra.volume }}{% endif -%}
+            {%- if page.extra.pages %}, pp. {{ page.extra.pages }}{% endif -%}
+            {% if page.extra.doi %}
+            (<a href="https://doi.org/{{ page.extra.doi }}">{{ page.extra.doi }}</a>)
+            {% endif %}
+        </p>
+        {% endif %}
+        {% if not page.extra.journal and page.extra.doi %}
+        <p><a href="https://doi.org/{{ page.extra.doi }}">{{ page.extra.doi }}</a></p>
+        {% endif %}
+    </header>
+
+    <div class="page-body">
+        {% if page.extra.resources %}
+        <div class="resources">
+        <h2>Resources</h2>
+        <ul class="extra-links">
+        {% for link_item in page.extra.resources %}
+        <li>
+            <a href="{{link_item.link}}">{{link_item.label}}</a>
+        </li>
+        {% endfor %}
+        </ul>
+        </div>
+        {% endif %}
+
+        {{ page.content | safe }}
+    </div>
+</article>
+{% endblock %}

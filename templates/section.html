@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="section-content">
+    {{ section.content | safe }}
+
+    {% if section.pages %}
+    <div class="page-list">
+        {% for page in section.pages %}
+        <article class="page-item">
+            {% if page.extra.preview_image %}
+            <div class="page-item-image">
+                <a href="{{ page.permalink }}">
+                    <img src="{{page.slug}}/{{ page.extra.preview_image }}" alt="Preview for {{ page.title }}">
+                </a>
+            </div>
+            {% endif %}
+            <div class="page-item-content">
+                <div class="page-item-title"><a href="{{ page.permalink }}">{{ page.title }}</a></div>
+                {% if page.extra.authors %}
+                {% for author in page.extra.authors%}
+                    {% if loop.last %}
+                    {{author.name}}
+                    {% else %}
+                    {{author.name}}, 
+                    {% endif %}
+                {% endfor %}
+                {% endif %}
+                {% if page.extra.journal %}
+                <br/>
+                In {{ page.extra.journal }}
+                    {%- if page.extra.volume %}, Vol. {{ page.extra.volume }}{% endif -%}
+                {% endif %}
+
+                {% if page.description and section.title == "Projects" %}
+                <p>{{ page.description }}</p>
+                {% endif %}
+            </div>
+        </article>
+        {% endfor %}
+    </div>
+    {% endif %}
+</div>
+{% endblock %}
