@@ -29,4 +29,6 @@ CAWD-AWS provides not only estimates but also quantiles for the following proper
 | \\(Z_m\\) | \\( \\mathrm{m} \\) | Mean particle altitude weighted by particle mass. |
 
 
-Currently, only a preview subset is publicly available. We plan to continuously process and publish more soon.
+Currently, only a preview subset of a few days is publicly available. We plan to continuously process and publish more soon. Sign up [here](https://forms.office.com/Pages/ResponsePage.aspx?id=ZXoUKW1T-UO4AuChtc-dvzoW4eni9cRJuq9w4XVlkQlUNEVTNlJQMUhJQ04wMUFESFBFR0c1MjFOUi4u) to be notified when more data is available.
+
+For any questions, please contact [peter.mcevoy@chalmers.se](mailto://peter.mcevoy@chalmers.se).
