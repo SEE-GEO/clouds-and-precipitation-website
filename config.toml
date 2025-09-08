@@ -1,9 +1,9 @@
 # The URL the site will be built for
-base_url = "https://websitename.example.com"
+base_url = "https://see-geo.github.io/clouds-and-precipitation-website/"
 
 # The site title and description
 title = "Chalmers Atmospheric Water Datasets"
-description = "A more detailed description"
+# description = "A more detailed description"
 
 # The default language
 default_language = "en"

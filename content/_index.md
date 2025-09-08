@@ -1,8 +1,3 @@
 +++
-title = "Welcome"
-template = "index.html"
+redirect_to = "projects"
 +++
-
-Intro 
-
-topics

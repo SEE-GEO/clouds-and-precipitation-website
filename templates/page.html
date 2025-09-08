@@ -8,7 +8,11 @@
         <div class="authors">
         {% for author in page.extra.authors%}
         <span class="author-item">
-            <a href="{{author.link}}">{{author.name}}</a>
+            {% if author.link %}
+                <a href="{{author.link}}">{{author.name}}</a>
+            {% else %}
+                {{author.name}}
+            {% endif %}
         </span>
         {% endfor %}
         </div>

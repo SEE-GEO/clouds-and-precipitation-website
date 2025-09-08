@@ -4,9 +4,9 @@ date = 2024-01-10
 description = "A novel, deep-learning-based climate record of ice-particle concentrations in the atmosphere."
 [extra]
 authors = [
-    {name="Adrià Amell", link="mailto:amell@chalmers.se"},
+    {name="Adrià Amell", link="https://www.chalmers.se/en/persons/amell/"},
     {name="Simon Pfreundschuh", link="http://spfrnd.de/"},
-    {name="Patrick Eriksson", link="mailto:patrick.eriksson@chalmers.se"},
+    {name="Patrick Eriksson", link="https://www.chalmers.se/en/persons/patrick2/"},
 ]
 resources = [
     {label="CCIC Project Website", link="https://ccic.readthedocs.io"},

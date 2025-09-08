@@ -5,19 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ config.title }}</title>
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ config.description }}{% endif %}">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="{{ get_url(path="style.css" , cachebust=true) }}">
+    <link rel="stylesheet" href="{{ get_url(path="katex/katex.min.css" , cachebust=true) }}">
+
+    <!-- The loading of KaTeX is deferred to speed up page rendering -->
+    <script defer src="{{ get_url(path="katex/katex.min.js" , cachebust=true) }}"></script>
+
+    <!-- To automatically render math in text elements, include the auto-render extension: -->
+    <script defer src="{{ get_url(path="katex/auto-render.min.js", cachebust=true)}}"
+        onload="renderMathInElement(document.body);"></script>
 </head>
 <body>
     <header>
         <h1><a href="{{ config.base_url }}" style="text-decoration: none; color: inherit;">{{ config.title }}</a></h1>
         <p class="subtitle">{{ config.description }}</p>
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/publications/">Publications</a></li>
-                <li><a href="/projects/">Projects</a></li>
-            </ul>
-        </nav>
     </header>
 
     <main>
