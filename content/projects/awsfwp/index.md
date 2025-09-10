@@ -3,16 +3,12 @@ title = "Frozen-Water-Path from Arctic Weather Satellite: Level-2 Product"
 date = 2024-01-10
 description = "Atmospheric ice-mass retrievals from the arctic weather satellite."
 [extra]
-authors = [
-    {name="Peter McEvoy", link="https://www.chalmers.se/en/persons/evoy"},
-    {name="Eleanor May", link="https://www.chalmers.se/en/persons/maye/"},
-    {name="Patrick Eriksson", link="https://www.chalmers.se/en/persons/patrick2/"},
-]
 preview_image = 'aws_radiometer.jpg'
 teaser_image = "teaser.png"
 resources = [
     {label="Preview Dataset", link="https://storage.googleapis.com/petermfiles/cawd-aws-v0.0.1-example/html/index.html"},
-    {label="Arctic Weather Satellite", link="https://arctic-weather-satellite.org/"},
+    {label="Arctic Weather Satellite", link="https://www.esa.int/Applications/Observing_the_Earth/Meteorological_missions/Arctic_Weather_Satellite"},
+    {label="Perforemance evaluation of AWS data", link="https://arctic-weather-satellite.org/"},
 ]
 +++
 
@@ -31,4 +27,4 @@ CAWD-AWS provides not only estimates but also quantiles for the following proper
 
 Currently, only a preview subset of a few days is publicly available. We plan to continuously process and publish more soon. Sign up [here](https://forms.office.com/Pages/ResponsePage.aspx?id=ZXoUKW1T-UO4AuChtc-dvzoW4eni9cRJuq9w4XVlkQlUNEVTNlJQMUhJQ04wMUFESFBFR0c1MjFOUi4u) to be notified when more data is available.
 
-For any questions, please contact [peter.mcevoy@chalmers.se](mailto://peter.mcevoy@chalmers.se).
+Contact [peter.mcevoy@chalmers.se](mailto://peter.mcevoy@chalmers.se).
