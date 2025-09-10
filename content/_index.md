@@ -1,3 +1,3 @@
 +++
-redirect_to = "projects"
+redirect_to = "datasets"
 +++
