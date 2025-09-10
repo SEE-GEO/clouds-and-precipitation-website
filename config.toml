@@ -2,8 +2,8 @@
 base_url = "https://see-geo.github.io/clouds-and-precipitation-website/"
 
 # The site title and description
-title = "Chalmers Atmospheric Water Datasets"
-# description = "A more detailed description"
+title = "Atmospheric Water Datasets"
+description = "from the clouds and precipitation group at Chalmers University of Technology"
 
 # The default language
 default_language = "en"
