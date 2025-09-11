@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://see-geo.github.io/clouds-and-precipitation-website/"
+base_url = "https://clouds-and-precip.group"
 
 # The site title and description
 title = "Atmospheric Water Datasets"
