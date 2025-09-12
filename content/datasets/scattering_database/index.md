@@ -18,7 +18,9 @@ The database is developed in collaboration with the University of Hamburg.
 
 ### Database for totally random oriented particles (TRO)
 Covered hydrometeors range from pristine ice crystals to large aggregates, graupel and hail, 34 types in total.
-Furthermore, 34 frequencies from 1 to 886 GHz, and 3 temperatures, 190, 230 and 270 K, are included. The main article orientation is currently totally random (i.e. each orientation is equally probable), but the database is designed to also handle azimuthally orientation, and data for this orientation case will be added in the future. Mie code was used for the two completely spherical habits, while the bulk of data were calculated using the discrete dipole approximation method (DDA).
+The particle orientation is totally random (i.e. each orientation is equally probable).
+Furthermore, 34 frequencies from 1 to 886 GHz, and 3 temperatures, 190, 230 and 270 K, are included.
+Mie code was used for the two completely spherical habits, while the bulk of data were calculated using the discrete dipole approximation method (DDA).
 
 ### Database for azimuthally random oriented particles (ARO)
 To be written...
