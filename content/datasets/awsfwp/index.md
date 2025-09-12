@@ -1,6 +1,6 @@
 +++
 title = "Frozen-Water-Path from Arctic Weather Satellite: Level-2 Product"
-date = 2024-01-10
+date = 2025-09-10
 description = "Atmospheric ice-mass retrievals from the arctic weather satellite."
 [extra]
 preview_image = 'aws_radiometer.jpg'
@@ -15,7 +15,7 @@ resources = [
 # Description
 The Chalmers Atmospheric Water Dataset from the Arctic Weather Satellite (CAWD-AWS) offers the first satellite-based estimates of atmospheric ice particle properties derived from passive microwave measurements.
 
-This dataset represents a [level 2](https://www.earthdata.nasa.gov/learn/earth-observation-data-basics/data-processing-levels) processing of the Arctic Weather Satellite (AWS) level 1B instrument data, as [provided by EUMETSAT](https://data.eumetsat.int/product/EO:EUM:DAT:0905). Thus, data is provided in the instrument's native scan and mirror angle dimensions across the satellite's polar orbit. The retrieval methodology builds on the work described in [May et al. (2024)](https://doi.org/10.5194/amt-17-5957-2024).
+This dataset is a [level 2](https://www.earthdata.nasa.gov/learn/earth-observation-data-basics/data-processing-levels) processing of the Arctic Weather Satellite (AWS) level 1B instrument data, as [provided by EUMETSAT](https://data.eumetsat.int/product/EO:EUM:DAT:0905). Thus, data is provided in the instrument's native along-track and across-track data-dimensions. The retrieval methodology builds on the work described in [May et al. (2024)](https://doi.org/10.5194/amt-17-5957-2024).
 
 CAWD-AWS provides not only estimates but also quantiles for the following properties:
 | Variable | Unit | Description |
