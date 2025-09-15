@@ -33,4 +33,4 @@ To be written...
 - [Microwave and submillimeter wave scattering of oriented ice particles (2020)](https://doi.org/10.5194/amt-13-2309-2020)
 - [Microwave single-scattering properties of non-spheroidal raindrops (2020)](https://doi.org/10.5194/amt-13-6933-2020)
 
-Contact [patrick.eriksson@chalmers.se](patrick.eriksson@chalmers.se).
+Contact [patrick.eriksson@chalmers.se](mailto:patrick.eriksson@chalmers.se).
