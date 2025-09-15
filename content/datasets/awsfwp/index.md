@@ -1,7 +1,7 @@
 +++
 title = "Frozen-Water-Path from Arctic Weather Satellite: Level-2 Product"
 date = 2025-09-10
-description = "Atmospheric ice-mass retrievals from the arctic weather satellite."
+description = "Atmospheric ice-mass retrievals from the arctic weather satellite's sub-millimetre passive microwave measurements."
 [extra]
 preview_image = 'aws_radiometer.jpg'
 teaser_image = "teaser.png"
