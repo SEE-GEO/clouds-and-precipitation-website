@@ -15,7 +15,7 @@ The Chalmers Hydrometeor Inversion Product from the Arctic Weather Satellite (CH
 estimates of ice hydrometeor masses in the atmosphere across the globe within the +/-60° latitude region.
 The retrieval methodology is based on the work described in [May et al. (2024)](https://doi.org/10.5194/amt-17-5957-2024).
 
-This dataset represents a [level 2](https://www.earthdata.nasa.gov/learn/earth-observation-data-basics/data-processing-levels) processing of the Arctic Weather Satellite (AWS) level 1B instrument data, as [provided by EUMETSAT](https://data.eumetsat.int/product/EO:EUM:DAT:0905). This level of processing produces high-resolution, single-footprint retrievals.
+This dataset represents a [level 2](https://www.earthdata.nasa.gov/learn/earth-observation-data-basics/data-processing-levels) processing of the Arctic Weather Satellite (AWS) level 1B instrument data, as [provided by EUMETSAT](https://data.eumetsat.int/product/EO:EUM:DAT:0905). This processing level produces single-footprint retrievals with relatively high resolution (~10 km in nadir) for this type of instrument.
 
 The following quantities are retrieved:
 | Variable | Unit | Description |
