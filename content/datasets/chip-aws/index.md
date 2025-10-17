@@ -24,13 +24,13 @@ The following quantities are retrieved:
 | \\(D_m\\) | \\( \\mathrm{m} \\) | Mass-weighted mean volume equivalent diameter of ice hydrometeors inside the column. |
 | \\(Z_m\\) | \\( \\mathrm{m} \\) | Mass-weighted mean altitude of ice hydrometeors inside the column. |
 
-Besides best estimates of the quantities, the uncertainty is described providing quantities of the retrieval knowledge for each property.
+Besides best estimates, the uncertainty is described providing quantities of the retrieval knowledge for each property.
 
 
 Currently, only a preview subset of a few days is publicly available. We plan to continuously process and publish more soon. Sign up [here](https://forms.office.com/Pages/ResponsePage.aspx?id=ZXoUKW1T-UO4AuChtc-dvzoW4eni9cRJuq9w4XVlkQlUNEVTNlJQMUhJQ04wMUFESFBFR0c1MjFOUi4u) to be notified when more data is available.
 
 # About the Arctic Weather Satellite
-More information on the satellite its instrument can be found here:
+More information on the satellite and its instrument can be found here:
 - [ESA page on the Arctic Weather Satellite](https://www.esa.int/Applications/Observing_the_Earth/Meteorological_missions/Arctic_Weather_Satellite)
 - [The Arctic Weather Satellite radiometer (2025)](https://doi.org/10.5194/amt-18-4709-2025)
 - [Performance evaluation of AWS data](https://arctic-weather-satellite.org/)
