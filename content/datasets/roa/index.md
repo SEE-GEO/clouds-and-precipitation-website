@@ -48,3 +48,7 @@ Contact: [amell@chalmers.se](mailto:amell@chalmers.se).
 - Rain over Africa code repository and docs: [https://github.com/SEE-GEO/roa](https://github.com/SEE-GEO/roa)
 
 - RoA data openly accessible via the Registry of Open Data on AWS: [https://registry.opendata.aws/roa](https://registry.opendata.aws/roa)
+
+- Rain over Africa retrievals are also available at:
+    - [UK CEH Nowcasting portal](https://africa-hydrology.ceh.ac.uk/nowcasting)
+    - [NCAS WISER-EWSA Catalogue](https://science.ncas.ac.uk/wiserewsa/)
