@@ -1,5 +1,5 @@
 +++
-title = "Chalmers Cloud Ice Climatology (CCIC)"
+title = "CCIC: Chalmers Cloud Ice Climatology"
 date = 2024-01-10
 description = "A novel, deep-learning-based climate record of ice-particle concentrations in the atmosphere."
 [extra]

@@ -1,12 +1,12 @@
 +++
-title = "Arctic Weather Satellite frozen water path L2 product"
+title = "CHIP-AWS: Chalmers Hydrometeor Inversion Product from the Arctic Weather Satellite"
 date = 2025-09-10
-description = "Atmospheric ice-mass retrievals from the arctic weather satellite's sub-millimetre passive microwave measurements."
+description = "Atmospheric ice-mass retrievals from the arctic weather satellite's sub-millimetre radiometer measurements."
 [extra]
 preview_image = 'aws_radiometer.jpg'
 teaser_image = "teaser.png"
 resources = [
-    {label="Preview dataset", link="https://storage.googleapis.com/petermfiles/cawd-aws-v0.0.1-example/html/index.html"},
+    {label="chip-aws-v0.6", link="http://data.clouds-and-precip.group/chip-aws/chip-aws-v0.6/html/"},
 ]
 +++
 
@@ -24,11 +24,11 @@ The following quantities are retrieved:
 | \\(D_m\\) | \\( \\mathrm{m} \\) | Mass-weighted mean volume equivalent diameter of ice hydrometeors inside the column. |
 | \\(Z_m\\) | \\( \\mathrm{m} \\) | Mass-weighted mean altitude of ice hydrometeors inside the column. |
 
-Besides best estimates, the uncertainty is described providing quantities of the retrieval knowledge for each property.
+Besides best estimates, the uncertainty is described by providing quantiles of the retrieved CDF for each variable.
 
 
-Currently, only a preview subset of a few days is publicly available. We plan to continuously process and publish more soon. Sign up [here](https://forms.office.com/Pages/ResponsePage.aspx?id=ZXoUKW1T-UO4AuChtc-dvzoW4eni9cRJuq9w4XVlkQlUNEVTNlJQMUhJQ04wMUFESFBFR0c1MjFOUi4u) to be notified when more data is available.
-
+The dataset is updated roughly every month with new data and is made publicly available here: <http://data.clouds-and-precip.group/chip-aws/chip-aws-v0.6/html/>.  
+Sign up [here](https://forms.office.com/Pages/ResponsePage.aspx?id=ZXoUKW1T-UO4AuChtc-dvzoW4eni9cRJuq9w4XVlkQlUNEVTNlJQMUhJQ04wMUFESFBFR0c1MjFOUi4u) to be notified about significant updates
 # About the Arctic Weather Satellite
 More information on the satellite and its instrument can be found here:
 - [ESA page on the Arctic Weather Satellite](https://www.esa.int/Applications/Observing_the_Earth/Meteorological_missions/Arctic_Weather_Satellite)
