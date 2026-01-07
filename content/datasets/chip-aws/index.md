@@ -6,7 +6,7 @@ description = "Atmospheric ice-mass retrievals from the arctic weather satellite
 preview_image = 'aws_radiometer.jpg'
 teaser_image = "teaser.png"
 resources = [
-    {label="chip-aws-v0.6", link="http://data.clouds-and-precip.group/chip-aws/chip-aws-v0.6/html/"},
+    {label="chip-aws-v0.6", link="http://data.clouds-and-precip.group/chip-aws/chip-aws-v0.6/"},
 ]
 +++
 
@@ -27,7 +27,7 @@ The following quantities are retrieved:
 Besides best estimates, the uncertainty is described by providing quantiles of the retrieved CDF for each variable.
 
 
-The dataset is updated roughly every month with new data and is made publicly available here: <http://data.clouds-and-precip.group/chip-aws/chip-aws-v0.6/html/>.  
+The dataset is updated roughly every month with new data and is made publicly available here: <http://data.clouds-and-precip.group/chip-aws/chip-aws-v0.6/>.  
 Sign up [here](https://forms.office.com/Pages/ResponsePage.aspx?id=ZXoUKW1T-UO4AuChtc-dvzoW4eni9cRJuq9w4XVlkQlUNEVTNlJQMUhJQ04wMUFESFBFR0c1MjFOUi4u) to be notified about significant updates
 # About the Arctic Weather Satellite
 More information on the satellite and its instrument can be found here:
