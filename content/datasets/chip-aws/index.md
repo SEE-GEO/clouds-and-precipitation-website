@@ -27,7 +27,7 @@ The following quantities are retrieved:
 The uncertainty is quantified by presenting the quantiles of the retrieved CDF for each variable.
 
 
-The dataset is updated roughly every month with new data and is publicly available here: <http://data.clouds-and-precip.group/chip-aws/chip-aws-v0.6/html>.  
+The dataset is updated roughly every month with new data and is publicly available here: <http://data.clouds-and-precip.group/chip-aws/chip-aws-v0.6>.  
 Sign up [here](https://forms.office.com/Pages/ResponsePage.aspx?id=ZXoUKW1T-UO4AuChtc-dvzoW4eni9cRJuq9w4XVlkQlUNEVTNlJQMUhJQ04wMUFESFBFR0c1MjFOUi4u) to be notified about significant updates
 # About the Arctic Weather Satellite
 More information on the satellite and its instrument can be found here:
