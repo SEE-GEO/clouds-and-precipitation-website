@@ -17,7 +17,7 @@ Contact [amell@chalmers.se](mailto:amell@chalmers.se).
 ## Related publications
 - [The Chalmers Cloud Ice Climatology: retrieval implementation and validation (2024)](https://doi.org/10.5194/amt-17-4337-2024)
 
-# Examples of data usage
+## Examples of data usage
 - [Advancements and continued challenges in observations and global modelling of atmospheric ice mass (2026)](https://doi.org/10.5194/acp-26-2741-2026)
 - [The Chalmers Cloud Ice Climatology: A Novel Robust Climate Record of Frozen Cloud Hydrometeor Concentrations (2025)](https://doi.org/10.1029/2024JD042618)
 

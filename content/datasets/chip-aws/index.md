@@ -10,7 +10,7 @@ resources = [
 ]
 +++
 
-# Description
+## Description
 The Chalmers Hydrometeor Inversion Product from the Arctic Weather Satellite (CHIP-AWS) provides
 estimates of ice hydrometeor masses in the atmosphere across the globe within the +/-60° latitude region.
 The retrieval methodology is based on the work described in [May et al. (2024)](https://doi.org/10.5194/amt-17-5957-2024).
@@ -30,10 +30,10 @@ The uncertainty is quantified by presenting the quantiles of the retrieved CDF f
 The dataset is updated roughly every month with new data and is publicly available here: <http://data.clouds-and-precip.group/chip-aws/chip-aws-v0.6>.  
 Sign up [here](https://forms.office.com/Pages/ResponsePage.aspx?id=ZXoUKW1T-UO4AuChtc-dvzoW4eni9cRJuq9w4XVlkQlUNEVTNlJQMUhJQ04wMUFESFBFR0c1MjFOUi4u) to be notified about significant updates
 
-# Examples of data usage
+## Examples of data usage
 - [Advancements and continued challenges in observations and global modelling of atmospheric ice mass (2026)](https://doi.org/10.5194/acp-26-2741-2026)
 
-# About the Arctic Weather Satellite
+## About the Arctic Weather Satellite
 More information on the satellite and its instrument can be found here:
 - [ESA page on the Arctic Weather Satellite](https://www.esa.int/Applications/Observing_the_Earth/Meteorological_missions/Arctic_Weather_Satellite)
 - [The Arctic Weather Satellite radiometer (2025)](https://doi.org/10.5194/amt-18-4709-2025)
