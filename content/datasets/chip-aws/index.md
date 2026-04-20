@@ -6,7 +6,7 @@ description = "Atmospheric ice-mass retrievals from the arctic weather satellite
 preview_image = 'aws_radiometer.jpg'
 teaser_image = "teaser.png"
 resources = [
-    {label="chip-aws-v0.6: Getting started", link="http://data.clouds-and-precip.group/chip-aws/chip-aws-v0.6/html"},
+    {label="chip-aws-v1.0: Getting started", link="http://data.clouds-and-precip.group/chip-aws/chip-aws-v1.0/html"},
 ]
 +++
 
@@ -27,7 +27,7 @@ The following quantities are retrieved:
 The uncertainty is quantified by presenting the quantiles of the retrieved CDF for each variable.
 
 
-The dataset is updated roughly every month with new data and is publicly available here: <http://data.clouds-and-precip.group/chip-aws/chip-aws-v0.6>.  
+The dataset is updated roughly every month with new data and is publicly available here: <http://data.clouds-and-precip.group/chip-aws/chip-aws-v1.0>.  
 Sign up [here](https://forms.office.com/Pages/ResponsePage.aspx?id=ZXoUKW1T-UO4AuChtc-dvzoW4eni9cRJuq9w4XVlkQlUNEVTNlJQMUhJQ04wMUFESFBFR0c1MjFOUi4u) to be notified about significant updates
 
 ## Examples of data usage
