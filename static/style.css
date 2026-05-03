@@ -35,6 +35,15 @@ h1 {
     margin-bottom: 0.5rem;
 }
 
+div.notification {
+    width: 500px;
+    background-color: #ffffaaff;
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #aaaa66aa;
+}
+
 .subtitle {
     color: #666;
     font-size: 1.1rem;
