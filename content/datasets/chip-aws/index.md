@@ -30,6 +30,9 @@ The uncertainty is quantified by presenting the quantiles of the retrieved CDF f
 The dataset is updated roughly every month with new data and is publicly available here: <http://data.clouds-and-precip.group/chip-aws/chip-aws-v1.0>.  
 Sign up [here](https://forms.office.com/Pages/ResponsePage.aspx?id=ZXoUKW1T-UO4AuChtc-dvzoW4eni9cRJuq9w4XVlkQlUNEVTNlJQMUhJQ04wMUFESFBFR0c1MjFOUi4u) to be notified about significant updates
 
+## Publication
+- [Preprint manuscript: The Arctic Weather Satellite, introducing a new wavelength range for ice hydrometeor retrievals (2026)](https://drive.google.com/file/d/1_rhaUTJ1PgHvbb0m4PVkBQ9wutMPDKFS/view?usp=sharing)
+
 ## Examples of data usage
 - [Advancements and continued challenges in observations and global modelling of atmospheric ice mass (2026)](https://doi.org/10.5194/acp-26-2741-2026)
 
