@@ -15,7 +15,7 @@ The Chalmers Cloud Ice Climatology (CCIC) is a novel, deep-learning-based climat
 Contact [amell@chalmers.se](mailto:amell@chalmers.se).
 
 ## Publications on retrieval description and validation
-- CCIC version 0.2: [Fine-tuning a machine-learned 3D cloud climatology reveals aspects of cloud cover trends (2026) [preprint]](https://doi.org/10.22541/essoar.15001993/v1)
+- CCIC version 0.2: [Fine-tuning a machine-learned 3D cloud climatology reveals aspects of cloud cover trends (2026) [preprint]](https://doi.org/10.22541/essoar.15001993/v2)
 - CCIC version 0.1: [The Chalmers Cloud Ice Climatology: retrieval implementation and validation (2024)](https://doi.org/10.5194/amt-17-4337-2024)
 
 ## Examples of data usage
